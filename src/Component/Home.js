@@ -1,8 +1,12 @@
-import React from 'react'
+
+import Nav from './Nav'
 
 
 const Home = () => {
+  
   return (
+    <>
+    <Nav/>
    <div className="text-center mt-20 home">
   <h1 className="text-5xl md:text-6xl font-extrabold text-gray-900 tracking-tight">
     Home <span className="text-indigo-600">Page</span>
@@ -19,6 +23,7 @@ const Home = () => {
   </div>
  
 </div>
+</>
   )
 }
 

@@ -15,7 +15,7 @@ export default function Nav() {
 
        
         <ul className="hidden md:flex space-x-8 text-gray-700 font-medium">
-          <Link to="/home"><li className="hover:text-blue-600 cursor-pointer">Home</li></Link> 
+          <Link to="/"><li className="hover:text-blue-600 cursor-pointer">Home</li></Link> 
           <Link to="/contact"><li className="hover:text-blue-600 cursor-pointer">Contact</li></Link>
           <Link to="/about"><li className="hover:text-blue-600 cursor-pointer">About Us</li></Link>
           <Link to="/services"><li className="hover:text-blue-600 cursor-pointer">Services</li></Link>
@@ -34,7 +34,7 @@ export default function Nav() {
       
       {open && (
         <ul className="md:hidden flex flex-col items-center bg-white shadow-lg py-6 space-y-6 font-medium text-gray-700">
-          <Link to="/home" onClick={handleClose}><li className="hover:text-blue-600 cursor-pointer">Home</li></Link>
+          <Link to="/" onClick={handleClose}><li className="hover:text-blue-600 cursor-pointer">Home</li></Link>
           <Link to="/contact" onClick={handleClose}><li className="hover:text-blue-600 cursor-pointer">Contact</li></Link>
           <Link to="/about" onClick={handleClose}><li className="hover:text-blue-600 cursor-pointer">About Us</li></Link>
           <Link to="/services" onClick={handleClose}><li className="hover:text-blue-600 cursor-pointer">Services</li></Link>

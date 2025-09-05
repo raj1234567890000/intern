@@ -22,7 +22,7 @@ const Gallery = () => {
   </div>
    <div className="mt-10 flex justify-center">
       <Link
-        to="/home"
+        to="/"
         className="inline-block px-6 py-3 bg-indigo-600 text-white font-semibold rounded-xl shadow-lg hover:bg-indigo-700 transition duration-200"
       >
         ← Back
